@@ -1,0 +1,1481 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#"
+     xml:base="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:Globalization="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#"
+     xmlns:Shibam="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Shibam#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:quantifiers="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#almost -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#almost"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#an -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#an">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">an</rdfs:label>
+		<rdfs:label xml:lang="ar"></rdfs:label>        
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#and -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#and">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">and</rdfs:label>
+        <rdfs:label xml:lang="ar">و</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#as -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#as"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#had -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#had">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">had</rdfs:label>
+        <rdfs:label xml:lang="ar">قد</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#the -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#the">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">the</rdfs:label>
+        <rdfs:label xml:lang="ar">ال</rdfs:label>
+    </owl:AnnotationProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Tthe -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Tthe">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">The</rdfs:label>
+        <rdfs:label xml:lang="ar">ال</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#therefore -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#therefore">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">Therefore</rdfs:label>
+        <rdfs:label xml:lang="ar">لذلك</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#was -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#was">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">was</rdfs:label>
+		<rdfs:label xml:lang="ar"></rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#So -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#So">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#soDid"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">so</rdfs:label>
+        <rdfs:label xml:lang="ar">كذلك</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Therefore -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Therefore">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">Therefore</rdfs:label>
+        <rdfs:label xml:lang="ar">لذلك</rdfs:label>
+    </owl:ObjectProperty>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#That -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#That">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">That</rdfs:label>
+        <rdfs:label xml:lang="ar">ذلك</rdfs:label>
+    </owl:ObjectProperty>
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#a">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">a</rdfs:label>
+		<rdfs:label xml:lang="ar"></rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#almost -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#almost">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#hadAlmostDisappeared"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#among -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#among">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">among</rdfs:label>
+        <rdfs:label xml:lang="ar">من قبل</rdfs:label>
+    </owl:ObjectProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#ofmen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#ofmen">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">of</rdfs:label>
+        <rdfs:label xml:lang="ar">من</rdfs:label>
+    </owl:ObjectProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#before -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#before">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">before</rdfs:label>
+        <rdfs:label xml:lang="ar">قبل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#appeared -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#appeared">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#appearedIn"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">appeared</rdfs:label>
+        <rdfs:label xml:lang="ar">ظهر</rdfs:label>
+		<rdfs:label xml:lang="ar">ظهر له</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#appearedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#appearedIn">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">appeared in</rdfs:label>
+        <rdfs:label xml:lang="ar">ظهر في</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#appearedand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#appearedand">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#appeared"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">appeared and</rdfs:label>
+        <rdfs:label xml:lang="ar">ظهر وعند ظهوره</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#as -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#as"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#because -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#because">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#becauseOf"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">because</rdfs:label>
+        <rdfs:label xml:lang="ar">بسبب</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#becauseOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#becauseOf">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">because of</rdfs:label>
+        <rdfs:label xml:lang="ar">نظرا ل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#concentrated -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#concentrated">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#concentratedOn"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">concentrated</rdfs:label>
+        <rdfs:label xml:lang="ar">ركز</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#concentratedOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#concentratedOn">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">concentrated on</rdfs:label>
+        <rdfs:label xml:lang="ar">ركز على</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#developed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#developed">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">developed</rdfs:label>
+        <rdfs:label xml:lang="ar">تطور</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#did -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#did">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#soDid"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">did</rdfs:label>
+        <rdfs:label xml:lang="ar">فعل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#disappeared -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#disappeared">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#had_disappeared"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">disappeared</rdfs:label>
+        <rdfs:label xml:lang="ar">اختفى</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#for">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">for</rdfs:label>
+        <rdfs:label xml:lang="ar">ل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#forCarvingOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#forCarvingOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#for"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">for carving in</rdfs:label>
+        <rdfs:label xml:lang="ar">للنحت على</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#grew -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#grew">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">grew</rdfs:label>
+        <rdfs:label xml:lang="ar">نما</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#hadAlmostDisappeared -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#hadAlmostDisappeared">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">had almost disappeared</rdfs:label>
+        <rdfs:label xml:lang="ar">كان قد اختفى تقريباً</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#had_disappeared -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#had_disappeared">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#hadAlmostDisappeared"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">had disappeared</rdfs:label>
+        <rdfs:label xml:lang="ar">كان قد اختفى</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#in">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">in</rdfs:label>
+        <rdfs:label xml:lang="ar">في</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#include -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#include">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">include</rdfs:label>
+        <rdfs:label xml:lang="ar">تتضمن</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#many -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#many">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">many</rdfs:label>
+        <rdfs:label xml:lang="ar">العديد من</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#of">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">of</rdfs:label>
+		<rdfs:label xml:lang="ar"></rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#on">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">on</rdfs:label>
+        <rdfs:label xml:lang="ar">على</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#seen_as -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#seen_as">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#wasSeenAs"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">seen as</rdfs:label>
+        <rdfs:label xml:lang="ar">اعتبر</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#soDid -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#soDid">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">so did</rdfs:label>
+        <rdfs:label xml:lang="ar">انتشر كذلك</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#spread -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#spread">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">spread</rdfs:label>
+        <rdfs:label xml:lang="ar">انتشار</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#that -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#that">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">that</rdfs:label>
+        <rdfs:label xml:lang="ar">التي</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#thatInclude -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#thatInclude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#include"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">that include</rdfs:label>
+        <rdfs:label xml:lang="ar">التي تتضمن</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#wasSeen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#wasSeen">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#wasSeenAs"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">was seen</rdfs:label>
+        <rdfs:label xml:lang="ar">اعتبر</rdfs:label>
+    </owl:ObjectProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Seen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Seen">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#wasSeenAs"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">seen</rdfs:label>
+        <rdfs:label xml:lang="ar">اعتبر</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#wasSeenAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#wasSeenAs">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">was seen as</rdfs:label>
+        <rdfs:label xml:lang="ar">اعتبر</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#with">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">with</rdfs:label>
+        <rdfs:label xml:lang="ar">مع</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#null -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#null"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#on"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Shibam#by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Shibam#by">
+        <rdfs:label xml:lang="en">By</rdfs:label>
+        <rdfs:label xml:lang="ar">بحلول</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Angular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Angular">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Kufic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Style"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">angular</rdfs:label>
+        <rdfs:label xml:lang="ar">زاوي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#AngularStyle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#AngularStyle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Angular"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">an angular style</rdfs:label>
+        <rdfs:label xml:lang="ar">وهو نمط زاوي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Art -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Art">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Arts"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">art</rdfs:label>
+        <rdfs:label xml:lang="ar">الفن</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Arts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Arts">
+        <rdfs:label xml:lang="en">arts</rdfs:label>
+        <rdfs:label xml:lang="ar">الفنون</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Book">
+        <rdfs:label xml:lang="en">book</rdfs:label>
+        <rdfs:label xml:lang="ar">كتاب</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Calligrapher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Calligrapher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#People"/>
+        <rdfs:label xml:lang="en">calligraphers</rdfs:label>
+        <rdfs:label xml:lang="ar">الخطاطين</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Calligraphy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Calligraphy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Arts"/>
+        <rdfs:label xml:lang="en">Calligraphy</rdfs:label>
+        <rdfs:label xml:lang="ar">فن الخط</rdfs:label>
+    </owl:Class>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#_Calligraphy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#_Calligraphy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Arts"/>
+        <rdfs:label xml:lang="en">calligraphy</rdfs:label>
+        <rdfs:label xml:lang="ar">فن الخط</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Carving -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Carving">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Mechanism"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">carving</rdfs:label>
+        <rdfs:label xml:lang="ar">النحت</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#CarvingIn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#CarvingIn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Carving"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">carving in</rdfs:label>
+        <rdfs:label xml:lang="ar">لنحت على</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Century -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Century">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Time"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <quantifiers:hasQuantifier>7th</quantifiers:hasQuantifier>
+        <rdfs:label xml:lang="en">century</rdfs:label>
+        <rdfs:label xml:lang="ar">القرن</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Expression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Expression">
+        <rdfs:label xml:lang="en">expressions</rdfs:label>
+        <rdfs:label xml:lang="ar">التعبيرات</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Flowing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Flowing">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Nashki"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Style"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">flowing</rdfs:label>
+        <rdfs:label xml:lang="ar">انسيابية</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#FlowingStyle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#FlowingStyle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Flowing"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <quantifiers:hasQuantifier>more</quantifiers:hasQuantifier>
+        <rdfs:label xml:lang="en">flowing style</rdfs:label>
+        <rdfs:label xml:lang="ar">نمط انسيابي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Follower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Follower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#People"/>
+        <rdfs:label xml:lang="en">followers</rdfs:label>
+        <rdfs:label xml:lang="ar">أتباع</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#God -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#God">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">God</rdfs:label>
+        <rdfs:label xml:lang="ar">الله</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Greatest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Greatest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Opinion"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">greatest</rdfs:label>
+        <rdfs:label xml:lang="ar">أعظم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Holy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Holy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Quran"/>
+        <rdfs:label xml:lang="en">Holy</rdfs:label>
+        <rdfs:label xml:lang="ar">الكريم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#HolyQuran -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#HolyQuran">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Holy"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">Holy Quran</rdfs:label>
+        <rdfs:label xml:lang="ar">القرآن الكريم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Importance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Importance">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">importance</rdfs:label>
+        <rdfs:label xml:lang="ar">أهمية</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Islam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Islam">
+        <rdfs:label xml:lang="en">Islam</rdfs:label>
+        <rdfs:label xml:lang="ar">الإسلام</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Kufic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Kufic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Calligraphy"/>
+        <rdfs:label xml:lang="en">Kufic</rdfs:label>
+        <rdfs:label xml:lang="ar">الخط الكوفي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Letter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Letter">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">letters</rdfs:label>
+        <rdfs:label xml:lang="ar">حروف</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Main -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Main">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Style"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">main</rdfs:label>
+        <rdfs:label xml:lang="ar">رئيسيان</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#MainStyle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#MainStyle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Main"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <quantifiers:hasQuantifier>two</quantifiers:hasQuantifier>
+        <rdfs:label xml:lang="en">main style</rdfs:label>
+        <rdfs:label xml:lang="ar">أسلوب رئيسي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Mechanism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Mechanism">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">mechanism</rdfs:label>
+        <rdfs:label xml:lang="ar">آلية</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Expression"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+        <rdfs:label xml:lang="ar">اسم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Nashki -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Nashki">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Calligraphy"/>
+        <rdfs:label xml:lang="en">Nashki</rdfs:label>
+        <rdfs:label xml:lang="ar">خط النسخ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Number">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">number</rdfs:label>
+        <rdfs:label xml:lang="ar">رقم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Opinion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Opinion">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">opinion</rdfs:label>
+        <rdfs:label xml:lang="ar">رأي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#People -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#People">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">people</rdfs:label>
+        <rdfs:label xml:lang="ar">ناس</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Quran -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Quran">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Book"/>
+        <rdfs:label xml:lang="en">Quran</rdfs:label>
+        <rdfs:label xml:lang="ar">القرآن</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Rounded -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Rounded">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Letter"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">rounded</rdfs:label>
+        <rdfs:label xml:lang="ar">مستديرة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#RoundedLetter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#RoundedLetter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Rounded"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">rounded letters</rdfs:label>
+        <rdfs:label xml:lang="ar">حروف مستديرة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Stone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Stone">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">stone</rdfs:label>
+        <rdfs:label xml:lang="ar">الحجر</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Style -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Style">
+        <rdfs:label xml:lang="en">style</rdfs:label>
+        <rdfs:label xml:lang="ar">نمط</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Styles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Styles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Style"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">styles</rdfs:label>
+        <rdfs:label xml:lang="ar">أسلوبان</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#TheGreatest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#TheGreatest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Greatest"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">the greatest</rdfs:label>
+        <rdfs:label xml:lang="ar">أعظم</rdfs:label>
+    </owl:Class>
+    
+
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Greatest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Greatest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Greatst"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">greatest</rdfs:label>
+        <rdfs:label xml:lang="ar">أعظم</rdfs:label>
+    </owl:Class>
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Time">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">time</rdfs:label>
+        <rdfs:label xml:lang="ar">زمن</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Two -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Two">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Number"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">two</rdfs:label>
+        <rdfs:label xml:lang="ar">اثنين</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#TwoMainStyles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#TwoMainStyles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#MainStyle"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Two"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">two main styles</rdfs:label>
+        <rdfs:label xml:lang="ar">أسلوبان رئيسيان</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Writing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Writing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Mechanism"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">writing</rdfs:label>
+        <rdfs:label xml:lang="ar">كتابة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#WritingExpression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#WritingExpression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Expression"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Writing"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">writing expressions</rdfs:label>
+        <rdfs:label xml:lang="ar">كتابة التعبيرات</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#more -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#more">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Number"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">more</rdfs:label>
+        <rdfs:label xml:lang="ar">أكثر</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#moreFlowingStyle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#moreFlowingStyle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#FlowingStyle"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#more"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#10th -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#10th">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#10th_century"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">10th</rdfs:label>
+        <rdfs:label xml:lang="ar">العاشر</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#10th_century -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#10th_century">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Century"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">10th century</rdfs:label>
+        <rdfs:label xml:lang="ar">القرن العاشر</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#7th -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#7th">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#7th_century"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">7th</rdfs:label>
+        <rdfs:label xml:lang="ar">السابع</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#7th_century -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#7th_century">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Century"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">7th century</rdfs:label>
+        <rdfs:label xml:lang="ar">القرن السابع</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#angular -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#angular">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Angular"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#angularstyle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#angularstyle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#AngularStyle"/>
+        <for rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#carving"/>
+        <forCarvingOn rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#stone"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#art -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#art">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Art"/>
+        <developed rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#null"/>
+        <grew rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#null"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#arts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#arts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Arts"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#calligrapher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#calligrapher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Calligrapher"/>
+        <concentratedOn rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#writingexpression"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#calligraphy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#calligraphy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Calligraphy"/>
+        <among rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#follower"/>
+        <wasSeenAs rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#greatest"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#carving -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#carving">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Carving"/>
+        <Globalization:on rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#stone"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <the rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Stone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#century -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#century">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Century"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#expression -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#expression">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Expression"/>
+        <include rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#name"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#flowing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#flowing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Flowing"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#flowingstyle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#flowingstyle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#FlowingStyle"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#follower -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#follower">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Follower"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#islam"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#god -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#god">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#God"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#greatest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#greatest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Greatest"/>
+        <becauseOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#importance"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#arts"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#holy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#holy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Holy"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#holyquran -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#holyquran">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#HolyQuran"/>
+        <many rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#calligrapher"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#importance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#importance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Importance"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#writing"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#islam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#islam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Islam"/>
+        <spread rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#null"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#kufic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#kufic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Kufic"/>
+        <appearedIn rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#7thCentury"/>
+        <hadAlmostDisappeared rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#null"/>
+        <Globalization:null rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#angularstyle"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#letter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#letter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Letter"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#main -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#main">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Main"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#mainstyle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#mainstyle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#MainStyle"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#moreFlowingStyle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#moreFlowingStyle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#moreFlowingStyle"/>
+        <with rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#roundedletters"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#name -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#name">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Name"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#god"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#nashki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#nashki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Nashki"/>
+        <appeared rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#null"/>
+        <Globalization:null rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#moreFlowingStyle"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#null -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#null">
+        <soDid rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#calligraphy"/>
+        <Shibam:by rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#10thCentury"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#null1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#null1">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#null2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#null2">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <as rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#islam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#quran -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#quran">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Quran"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#rounded -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#rounded">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Rounded"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#roundedletters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#roundedletters">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#RoundedLetter"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#stone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#stone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Stone"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#style -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#style">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Style"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#twoMainStyles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#twoMainStyles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#TwoMainStyles"/>
+        <appeared rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#null"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#writing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#writing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#Writing"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#holyquran"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#writingexpression -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#writingexpression">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#WritingExpression"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#10thCentury -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#10thCentury">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#10th_century"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#7thCentury -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#7thCentury">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#7th_century"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#almost">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+		<rdfs:label xml:lang="en">almost</rdfs:label>
+        <rdfs:label xml:lang="ar">تقريبا</rdfs:label>        
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#AAs">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+		<rdfs:label xml:lang="en">As</rdfs:label>
+        <rdfs:label xml:lang="ar">ب</rdfs:label>        
+    </rdf:Description>
+	<rdf:Description rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#as">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+		<rdfs:label xml:lang="en">as</rdfs:label>
+        <rdfs:label xml:lang="ar"></rdfs:label>        
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Calligraphy#moreFlowingStyle">
+        <rdfs:label xml:lang="en">more flowing style</rdfs:label>
+		<rdfs:label xml:lang="ar">أسلوب أكثر انسيابية</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label xml:lang="en">thing</rdfs:label>
+        <rdfs:label xml:lang="ar">شيء</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

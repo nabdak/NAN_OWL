@@ -1,0 +1,2048 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#"
+     xml:base="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Cinema="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#hasQuantifier -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#hasQuantifier">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#DesignedFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#DesignedFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasDesignedFor"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">designed for</rdfs:label>
+        <rdfs:label xml:lang="ar">صُمِّم ل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ForThat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ForThat">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#for"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">for that</rdfs:label>
+        <rdfs:label xml:lang="ar">لهذا</rdfs:label>
+    </owl:ObjectProperty>
+	
+	 <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#That -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#That">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">that</rdfs:label>
+        <rdfs:label xml:lang="ar">التي</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#IntroducedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#IntroducedTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasIntroducedTo"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">introduced to</rdfs:label>
+        <rdfs:label xml:lang="ar">قُدِّم ل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Only -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Only">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#where"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">only</rdfs:label>
+        <rdfs:label xml:lang="ar">فقط</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#The -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#The">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">the</rdfs:label>
+        <rdfs:label xml:lang="ar">ال</rdfs:label>
+    </owl:ObjectProperty>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Tthe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Tthe">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">The</rdfs:label>
+        <rdfs:label xml:lang="ar">ال</rdfs:label>
+    </owl:ObjectProperty>
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#WasCreated -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#WasCreated">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasCreatedFor"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">was created</rdfs:label>
+        <rdfs:label xml:lang="ar">تم صنعه</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#WasDesigned -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#WasDesigned">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasDesignedFor"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">was designed</rdfs:label>
+        <rdfs:label xml:lang="ar">تم تصميم</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#WasIntroduced -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#WasIntroduced">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasIntroducedTo"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">was introduced</rdfs:label>
+        <rdfs:label xml:lang="ar">تم تقديم</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Which -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Which">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">which</rdfs:label>
+        <rdfs:label xml:lang="ar">التي</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#WhichContained -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#WhichContained">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Which"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#contained"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">which contained</rdfs:label>
+        <rdfs:label xml:lang="ar">التي تحتوي على</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#a">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">a</rdfs:label>
+		<rdfs:label xml:lang="ar"></rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#and -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#and">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">and</rdfs:label>
+        <rdfs:label xml:lang="ar">و</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#as -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#as">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">as</rdfs:label>
+        <rdfs:label xml:lang="ar">ك</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#at -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#at">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">at</rdfs:label>
+		<rdfs:label xml:lang="ar">في</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#contained -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#contained">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">contained</rdfs:label>
+        <rdfs:label xml:lang="ar">تضمنت</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#created -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#created">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasCreatedFor"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">created</rdfs:label>
+        <rdfs:label xml:lang="ar">صنع</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#createdFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#createdFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasCreatedFor"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">created for</rdfs:label>
+        <rdfs:label xml:lang="ar">صنع ل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#designed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#designed">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasDesignedFor"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">designed</rdfs:label>
+        <rdfs:label xml:lang="ar">صمّم</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#did -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#did">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#didNot"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">did</rdfs:label>
+        <rdfs:label xml:lang="ar">فعل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#didNot -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#didNot">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">did not</rdfs:label>
+        <rdfs:label xml:lang="ar">لم</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#didNotEmerge -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#didNotEmerge">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#emergeAs"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">did not emerge</rdfs:label>
+        <rdfs:label xml:lang="ar">لم تظهر</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#didNotEmergeAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#didNotEmergeAs">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#didNotEmerge"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">did not emerge as</rdfs:label>
+        <rdfs:label xml:lang="ar">لم تظهر ك</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#emergeAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#emergeAs">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">emerge as</rdfs:label>
+        <rdfs:label xml:lang="ar">تظهر ك</rdfs:label>
+    </owl:ObjectProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#emerge -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#emerge">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">emerge</rdfs:label>
+        <rdfs:label xml:lang="ar">تظهر</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#emerged -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#emerged">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#emergeAs"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">emerge</rdfs:label>
+        <rdfs:label xml:lang="ar">ظهر</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#evolved -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#evolved">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#evolvedFrom"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">evolved</rdfs:label>
+        <rdfs:label xml:lang="ar">تطورت</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#evolvedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#evolvedFrom">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">evolved from</rdfs:label>
+        <rdfs:label xml:lang="ar">تطورت من</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#few -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#few">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">few</rdfs:label>
+        <rdfs:label xml:lang="ar">عدد قليل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#for">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">for</rdfs:label>
+        <rdfs:label xml:lang="ar">ب</rdfs:label>
+    </owl:ObjectProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ffor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ffor">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">For</rdfs:label>
+        <rdfs:label xml:lang="ar">ب</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#from">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">from</rdfs:label>
+        <rdfs:label xml:lang="ar">من</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#in">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">in</rdfs:label>
+        <rdfs:label xml:lang="ar">في</rdfs:label>
+    </owl:ObjectProperty>
+	
+	
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#introduced -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#introduced">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasIntroducedTo"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">introduced</rdfs:label>
+        <rdfs:label xml:lang="ar">قُدّم</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#moved -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#moved">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#movedFrom"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">moved</rdfs:label>
+        <rdfs:label xml:lang="ar">ينتقل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#movedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#movedFrom">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">moved from</rdfs:label>
+        <rdfs:label xml:lang="ar">ينتقل من</rdfs:label>
+    </owl:ObjectProperty>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#any -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#any">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">any</rdfs:label>
+        <rdfs:label xml:lang="ar">أي</rdfs:label>
+    </owl:ObjectProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#at_any -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#at_any">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">at any</rdfs:label>
+        <rdfs:label xml:lang="ar">ول</rdfs:label>
+    </owl:ObjectProperty>
+	
+	
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#five -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#five">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">five</rdfs:label>
+        <rdfs:label xml:lang="ar">خمس</rdfs:label>
+		<rdfs:label xml:lang="ar">خمسة</rdfs:label>
+    </owl:ObjectProperty>
+	
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#first -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#first">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">first</rdfs:label>
+        <rdfs:label xml:lang="ar">أول</rdfs:label>
+    </owl:ObjectProperty>
+	
+	
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#not -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#not">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">not</rdfs:label>
+        <rdfs:label xml:lang="ar">لا</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#of">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">of</rdfs:label>
+		<rdfs:label xml:lang="ar"></rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ofA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ofA">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#of"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">of a</rdfs:label>
+        <rdfs:label xml:lang="ar">من</rdfs:label>
+    </owl:ObjectProperty>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#its -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#its">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#it"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">its</rdfs:label>
+        <rdfs:label xml:lang="ar">ها</rdfs:label>
+    </owl:ObjectProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#it -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#it">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">it</rdfs:label>
+        <rdfs:label xml:lang="ar">ها</rdfs:label>
+    </owl:ObjectProperty>
+
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#s -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#s">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">'s</rdfs:label>
+        <rdfs:label xml:lang="ar"></rdfs:label>
+    </owl:ObjectProperty>
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#on">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">on</rdfs:label>
+        <rdfs:label xml:lang="ar">على</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#or -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#or">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">or</rdfs:label>
+        <rdfs:label xml:lang="ar">أو</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#orIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#orIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#in"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">or in</rdfs:label>
+        <rdfs:label xml:lang="ar">أو في</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#per -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#per">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">per</rdfs:label>
+        <rdfs:label xml:lang="ar">لكل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#perMachine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#perMachine">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#per"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">per machine</rdfs:label>
+        <rdfs:label xml:lang="ar">لكل آلة</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#permited -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#permited">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <hasQuantifier xml:lang="en">only one</hasQuantifier>
+        <hasQuantifier xml:lang="ar">واحد فقط</hasQuantifier>
+        <rdfs:label xml:lang="en">permitted</rdfs:label>
+        <rdfs:label xml:lang="ar">التي تسمح ل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#projected -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#projected">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wereProjectedOn"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">projected</rdfs:label>
+        <rdfs:label xml:lang="ar">عرَض</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#projectedOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#projectedOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wereProjectedOn"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">projected on</rdfs:label>
+        <rdfs:label xml:lang="ar">عرض على</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#s -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#s">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">s</rdfs:label>
+		<rdfs:label xml:lang="ar"></rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#through -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#through">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">through</rdfs:label>
+        <rdfs:label xml:lang="ar">من خلال</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#to">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">to</rdfs:label>
+        <rdfs:label xml:lang="ar">إلى</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#toView -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#toView">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">to view</rdfs:label>
+        <rdfs:label xml:lang="ar">بمشاهدة عرض</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#toWatch -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#toWatch">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">to watch</rdfs:label>
+        <rdfs:label xml:lang="ar">لمشاهدة</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#until -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#until">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">until</rdfs:label>
+        <rdfs:label xml:lang="ar">حتى</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#view -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#view">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#toView"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">viewed</rdfs:label>
+        <rdfs:label xml:lang="ar">يعرض</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#viewed -->
+
+    <!--<owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#viewed">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#view"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">viewed</rdfs:label>
+        <rdfs:label xml:lang="ar">يُعرَض</rdfs:label>
+    </owl:ObjectProperty> -->
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#was -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#was">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">was</rdfs:label>
+        <rdfs:label xml:lang="ar">كان</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasCreatedFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasCreatedFor">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">was created for</rdfs:label>
+        <rdfs:label xml:lang="ar">تم صنعه ل</rdfs:label>
+    </owl:ObjectProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ThatwasCreatedFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasCreatedFor">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">that was created for</rdfs:label>
+        <rdfs:label xml:lang="ar">تم صنعه ل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasDesignedFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasDesignedFor">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">was designed for</rdfs:label>
+        <rdfs:label xml:lang="ar">تم تصميم ل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasIntroducedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasIntroducedTo">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">was introduced to</rdfs:label>
+        <rdfs:label xml:lang="ar">تم تقديمه ل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasViewedThrough -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wasViewedThrough">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">was viewed through</rdfs:label>
+        <rdfs:label xml:lang="ar">كان يعرض من خلال</rdfs:label>
+    </owl:ObjectProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ViewedThrough -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ViewedThrough">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">viewed through</rdfs:label>
+        <rdfs:label xml:lang="ar">يعرض من خلال</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#watch -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#watch">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#toWatch"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">watch</rdfs:label>
+        <rdfs:label xml:lang="ar">يشاهد</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#were -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#were">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wereProjectedOn"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">were</rdfs:label>
+        <rdfs:label xml:lang="ar">يتم</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wereProjected -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wereProjected">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wereProjectedOn"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">were projected</rdfs:label>
+        <rdfs:label xml:lang="ar">يتم عرض</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wereProjectedOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#wereProjectedOn">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">were projected on</rdfs:label>
+        <rdfs:label xml:lang="ar">يتم عرض على</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#where -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#where">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">where</rdfs:label>
+        <rdfs:label xml:lang="ar">التي فيها</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#(or, -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#(or,">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#or"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">( or,</rdfs:label>
+        <rdfs:label xml:lang="ar">(أو مشاهدة</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#AFilm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#AFilm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Film"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">a film</rdfs:label>
+        <rdfs:label xml:lang="ar">الفيلم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Arcades -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Arcades">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Parlors"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Place"/>
+        <rdfs:label xml:lang="en">arcades</rdfs:label>
+        <rdfs:label xml:lang="ar">الممرات</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Case -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Case">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">case</rdfs:label>
+        <rdfs:label xml:lang="ar">حالة عرض</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Cent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Cent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Price"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <hasQuantifier xml:lang="ar">25</hasQuantifier>
+        <hasQuantifier xml:lang="en">25</hasQuantifier>
+        <hasQuantifier xml:lang="ar">5</hasQuantifier>
+        <hasQuantifier xml:lang="en">5</hasQuantifier>
+        <rdfs:label xml:lang="en">cents</rdfs:label>
+        <rdfs:label xml:lang="ar">سنتاً</rdfs:label>
+		<rdfs:label xml:lang="ar">سنتات</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Cinema -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Cinema">
+        <rdfs:label xml:lang="en">cinema</rdfs:label>
+        <rdfs:label xml:lang="ar">السينما</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Consumption">
+        <rdfs:label xml:lang="en">consumption</rdfs:label>
+        <rdfs:label xml:lang="ar">الاستهلاك</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Customer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Public"/>
+        <rdfs:label xml:lang="en">customer</rdfs:label>
+        <rdfs:label xml:lang="ar">عميل</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Customers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Customers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Customer"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">customers</rdfs:label>
+        <rdfs:label xml:lang="ar">العملاء</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Darkened -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Darkened">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Status"/>
+        <rdfs:label xml:lang="en">darkened</rdfs:label>
+        <rdfs:label xml:lang="ar">مظلم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#DarkenedTheater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#DarkenedTheater">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Darkened"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Theater"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">darkened theater</rdfs:label>
+        <rdfs:label xml:lang="ar">مسرح مظلم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Device">
+        <rdfs:label xml:lang="en">device</rdfs:label>
+        <rdfs:label xml:lang="ar">جهاز</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Different -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Different">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">different</rdfs:label>
+        <rdfs:label xml:lang="ar">مختلفة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#DifferentFilms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#DifferentFilms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Different"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Film"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+		<rdfs:label xml:lang="en">different films</rdfs:label>
+        <rdfs:label xml:lang="ar">أفلام مختلفة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Edison -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Edison">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ThomasEdison"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">Edison</rdfs:label>
+        <rdfs:label xml:lang="ar">إديسون</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Famous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Famous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">famous</rdfs:label>
+        <rdfs:label xml:lang="ar">المعارك الشهيرة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#FamousPeople -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#FamousPeople">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Famous"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#People"/>
+        <rdfs:label xml:lang="en">famous people</rdfs:label>
+        <rdfs:label xml:lang="ar">ناس مشهورين</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#FamousPrizefights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#FamousPrizefights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Famous"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Fight"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Prizefights"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">famous prizefights</rdfs:label>
+        <rdfs:label xml:lang="ar">المعارك الشهيرة الحاصلة على جائزة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Fight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Fight">
+        <rdfs:label xml:lang="en">fight</rdfs:label>
+        <rdfs:label xml:lang="ar">معركة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Film -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Film">
+        <rdfs:label xml:lang="en">film</rdfs:label>
+        <rdfs:label xml:lang="ar">الفيلم</rdfs:label>
+        <rdfs:label xml:lang="ar">فيلم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Films -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Films">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Film"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">films</rdfs:label>
+        <rdfs:label xml:lang="ar">أفلام</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Form">
+        <rdfs:label xml:lang="en">form</rdfs:label>
+        <rdfs:label xml:lang="ar">شكل من أشكال</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Format -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Format">
+        <rdfs:label xml:lang="en">format</rdfs:label>
+        <rdfs:label xml:lang="ar">الشكل</rdfs:label>
+        <rdfs:label xml:lang="ar">نظام</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Image">
+        <rdfs:label xml:lang="en">images</rdfs:label>
+        <rdfs:label xml:lang="ar">الصور</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Individual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Individual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">individual</rdfs:label>
+        <rdfs:label xml:lang="ar">الفردية</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#IndividualMachines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#IndividualMachines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Individual"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Machine"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <hasQuantifier xml:lang="en">only a few</hasQuantifier>
+        <hasQuantifier xml:lang="ar">عدد قليل فقط من</hasQuantifier>
+        <rdfs:label xml:lang="en">individual machines</rdfs:label>
+        <rdfs:label xml:lang="ar">آلات فردية</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Initial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Initial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">initial</rdfs:label>
+        <rdfs:label xml:lang="ar">الأولي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#InitialPeepshowFormat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#InitialPeepshowFormat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Initial"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Peepshow"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#PeepshowFormat"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">initial “peepshow” format</rdfs:label>
+        <rdfs:label xml:lang="ar">شكل أولي للوحة العرض بالعدسة (بيبشو)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ItsTechnology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ItsTechnology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Technology"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">its technology</rdfs:label>
+        <rdfs:label xml:lang="ar">تقنيتها</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Kinetoscope -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Kinetoscope">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#PeepshowDevice"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#PeepshowDevice"/>
+        <rdfs:label xml:lang="en">Kinetoscope</rdfs:label>
+        <rdfs:label xml:lang="ar">أداة الصور المتحركة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#KinetoscopeParlors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#KinetoscopeParlors">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Parlors"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Kinetoscope"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Parlors"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <hasQuantifier xml:lang="en">first</hasQuantifier>
+        <hasQuantifier xml:lang="ar">أول</hasQuantifier>
+        <rdfs:label xml:lang="en">Kinetoscope parlors</rdfs:label>
+        <rdfs:label xml:lang="ar">صالات عرض الصور المتحركة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Length -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Length">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Machine">
+        <rdfs:label xml:lang="en">machine</rdfs:label>
+        <rdfs:label xml:lang="ar">آلة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Machines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Machines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Machine"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">machines</rdfs:label>
+        <rdfs:label xml:lang="ar">آلات</rdfs:label>
+        <rdfs:label xml:lang="ar">الآلات</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#MassConsumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#MassConsumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Consumption"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#mass"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">mass consumption</rdfs:label>
+        <rdfs:label xml:lang="ar">استهلاك جماهيري</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#One -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#One">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Time"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">one</rdfs:label>
+        <rdfs:label xml:lang="ar">واحد</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Opening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Opening">
+        <rdfs:label xml:lang="en">opening</rdfs:label>
+        <rdfs:label xml:lang="ar">فتحة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#PEEPSHOW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#PEEPSHOW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Peepshow"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">"peepshow"</rdfs:label>
+        <rdfs:label xml:lang="ar">(بيبشو)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Parlors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Parlors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Place"/>
+        <rdfs:label xml:lang="en">parlors</rdfs:label>
+        <rdfs:label xml:lang="ar">صالات عرض</rdfs:label>
+    </owl:Class>
+	
+	  
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Peepshow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Peepshow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Device"/>
+        <rdfs:label xml:lang="en">peepshow</rdfs:label>
+        <rdfs:label xml:lang="ar">لوحة العرض بالعدسة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#PeepshowDevice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#PeepshowDevice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Peepshow"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">peepshow device</rdfs:label>
+        <rdfs:label xml:lang="ar">أداة العرض بالعدسة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#PeepshowFormat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#PeepshowFormat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Format"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">peepshow format</rdfs:label>
+        <rdfs:label xml:lang="ar">نظام العرض بالعدسة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#People -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#People">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">people</rdfs:label>
+        <rdfs:label xml:lang="ar">ناس</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Place"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Point">
+        <rdfs:label xml:lang="en">point</rdfs:label>
+        <rdfs:label xml:lang="ar">النقطة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Price -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Price">
+        <rdfs:label xml:lang="en">price</rdfs:label>
+        <rdfs:label xml:lang="ar">سعر</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Prize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Prize">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">prize</rdfs:label>
+        <rdfs:label xml:lang="ar">جائزة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Prizefights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Prizefights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Fight"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Prize"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">prizefights</rdfs:label>
+        <rdfs:label xml:lang="ar">الحاصلة على جائزة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Public -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Public">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#People"/>
+        <rdfs:label xml:lang="en">public</rdfs:label>
+        <rdfs:label xml:lang="ar">الجمهور</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Purpose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Purpose">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">purpose</rdfs:label>
+        <rdfs:label xml:lang="ar">الغرض</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Round -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Round">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Fight"/>
+        <rdfs:label xml:lang="en">rounds</rdfs:label>
+        <rdfs:label xml:lang="ar">جولات</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Screen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Screen">
+        <rdfs:label xml:lang="en">screen</rdfs:label>
+        <rdfs:label xml:lang="ar">شاشة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Short -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Short">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Status"/>
+        <rdfs:label xml:lang="en">short</rdfs:label>
+        <rdfs:label xml:lang="ar">قصير</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Short_50footFilm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Short_50footFilm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Film"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Short"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#50-foot"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">short, 50 foot film</rdfs:label>
+        <rdfs:label xml:lang="ar">فيلم قصير طوله 50 قدم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Show -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Show">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Cinema"/>
+        <rdfs:label xml:lang="en">show</rdfs:label>
+        <rdfs:label xml:lang="ar">عرض</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Single -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Single">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">single</rdfs:label>
+        <rdfs:label xml:lang="ar">واحدة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#SingleFight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#SingleFight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Fight"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Single"/>
+        <rdfs:label xml:lang="en">single fight</rdfs:label>
+        <rdfs:label xml:lang="ar">معركة واحدة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Small -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Small">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">small</rdfs:label>
+        <rdfs:label xml:lang="ar">صغيرة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#SmallOpening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#SmallOpening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Opening"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Small"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">small opening</rdfs:label>
+        <rdfs:label xml:lang="ar">فتحة صغيرة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Status">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">status</rdfs:label>
+        <rdfs:label xml:lang="ar">حالة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Successive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Successive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">successive</rdfs:label>
+        <rdfs:label xml:lang="ar">متتالية</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#SuccessiveRounds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#SuccessiveRounds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Round"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Successive"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">successive rounds</rdfs:label>
+        <rdfs:label xml:lang="ar">جولات متتالية</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Technology">
+        <rdfs:label xml:lang="en">technology</rdfs:label>
+        <rdfs:label xml:lang="ar">تقنية</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#TheKinetoscope -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#TheKinetoscope">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Kinetoscope"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">the Kinetoscope</rdfs:label>
+        <rdfs:label xml:lang="ar">كينيتوسكوب</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Theater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Theater">
+        <rdfs:label xml:lang="en">theater</rdfs:label>
+        <rdfs:label xml:lang="ar">مسرح</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Thomas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Thomas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ThomasEdison"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">Thomas</rdfs:label>
+        <rdfs:label xml:lang="ar">توماس</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ThomasEdison -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ThomasEdison">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#People"/>
+        <rdfs:label xml:lang="en">Thomas Edison</rdfs:label>
+        <rdfs:label xml:lang="ar">توماس إيدسون</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Time">
+        <hasQuantifier xml:lang="en">any one</hasQuantifier>
+        <hasQuantifier xml:lang="ar">واحدة</hasQuantifier>
+		<hasQuantifier xml:lang="en">any</hasQuantifier>
+        <hasQuantifier xml:lang="ar">فقط</hasQuantifier>
+        <rdfs:label xml:lang="en">time</rdfs:label>
+        <rdfs:label xml:lang="ar">مرة</rdfs:label>
+    </owl:Class>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#oneTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ONETime">
+        <hasQuantifier xml:lang="en">any one</hasQuantifier>
+        <hasQuantifier xml:lang="ar">واحدة</hasQuantifier>
+		<hasQuantifier xml:lang="en">any</hasQuantifier>
+        <hasQuantifier xml:lang="ar">فقط</hasQuantifier>
+        <rdfs:label xml:lang="en">at any one time</rdfs:label>
+        <rdfs:label xml:lang="ar">ولمرة واحدة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Year -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#mass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#mass"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#use -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#use"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#50-foot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#50-foot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Length"/>
+        <rdfs:label xml:lang="en">50-foot</rdfs:label>
+        <rdfs:label xml:lang="ar">50 قدماً</rdfs:label>
+    </owl:Class>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#50-foot_film -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#50-foot_film">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Length"/>
+        <rdfs:label xml:lang="en">50-foot film</rdfs:label>
+        <rdfs:label xml:lang="ar">فيلم طوله 50 قدماً</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#arcades -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#arcades">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Arcades"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#case -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#case">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Case"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#famous_prizefights"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#cinema -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#cinema">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Cinema"/>
+        <didNot rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#null1"/>
+        <until rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#technology"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#consumption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#consumption">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Consumption"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#customer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#customer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Customer"/>
+        <movedFrom rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#machine"/>
+        <to rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#machine"/>
+        <toWatch rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#5differentFilms"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#darkened_theater -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#darkened_theater">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#DarkenedTheater"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#famous_prizefights -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#famous_prizefights">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#FamousPrizefights"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#film -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#film">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Film"/>
+        <wasViewedThrough rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#small_opening"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#form -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#form">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Form"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#mass_consumption"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#image -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#image">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Image"/>
+        <wereProjectedOn rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#screen"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#individual_machines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#individual_machines">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#IndividualMachines"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#initial_peepshow_format -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#initial_peepshow_format">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#InitialPeepshowFormat"/>
+        <to rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#point"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#kinetoscope -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#kinetoscope">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Kinetoscope"/>
+        <in rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#1894"/>
+        <wasDesignedFor rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#use"/>
+        <wasIntroducedTo rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#public"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#kinetoscope_parlors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#kinetoscope_parlors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#KinetoscopeParlors"/>
+        <at rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#time"/>
+        <contained rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#individual_machines"/>
+        <contained rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#machine"/>
+        <permited rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#customer"/>
+        <toView rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#short50footFilm"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#machine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#machine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Machine"/>
+        <wasCreatedFor rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#purpose"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#mass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#mass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#mass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#mass_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#mass_consumption">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#MassConsumption"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#null1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#null1">
+        <emergeAs rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#form"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#null2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#null2">
+        <in rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#peepshow_format"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#null3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#null3">
+        <for rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#price"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#null4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#null4">
+        <orIn rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#case"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#opening -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#opening">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Opening"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#peepshow_device -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#peepshow_device">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#PeepshowDevice"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#peepshow_format -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#peepshow_format">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#PeepshowFormat"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#point -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#point">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Point"/>
+        <where rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#image"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#price -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#price">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Price"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#25cents"/>
+        <or rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#5cents"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#prizefights -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#prizefights">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Prizefights"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#public -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#public">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Public"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#purpose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#purpose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Purpose"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#screen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#screen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Screen"/>
+        <in rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#darkened_theater"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#short50footFilm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#short50footFilm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Short_50footFilm"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#singleFight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#singleFight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#SingleFight"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#small_opening -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#small_opening">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#SmallOpening"/>
+        <in rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#machine"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#successive_rounds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#successive_rounds">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#SuccessiveRounds"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#singleFight"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#technology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#technology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Technology"/>
+        <evolvedFrom rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#initial_peepshow_format"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#cinema"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#theater -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#theater">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Theater"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#time -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#time">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Time"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#tomas_edison -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#tomas_edison">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#ThomasEdison"/>
+        <s rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#peepshow_device"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#use -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#use">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#use"/>
+        <in rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#arcades"/>
+        <in rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#kinetoscope_parlors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#1894 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#1894">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Year"/>
+        <rdfs:label xml:lang="en">in 1894</rdfs:label>
+        <rdfs:label xml:lang="ar">عام 1894</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#25cents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#25cents">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Cent"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#5cents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#5cents">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#Cent"/>
+        <per rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#machine"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#5differentFilms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#5differentFilms">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#DifferentFilms"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#mass">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">mass</rdfs:label>
+        <rdfs:label xml:lang="ar">الجماهيري (الضخم)</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/7/Cinema#use">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">use</rdfs:label>
+		<rdfs:label xml:lang="ar">الاستخدام</rdfs:label>        
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label xml:lang="en">thing</rdfs:label>
+        <rdfs:label xml:lang="ar">شيء</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,2161 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#"
+     xml:base="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#hasQuantifier -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#hasQuantifier">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#AccordinglyIt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#AccordinglyIt">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#FaIn"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">Accordingly, it</rdfs:label>
+        <rdfs:label xml:lang="ar">فإنها</rdfs:label>
+    </owl:ObjectProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#aIt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#aIt">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#FaIn"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">it</rdfs:label>
+        <rdfs:label xml:lang="ar">إنها</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Amam -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Amam">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en"> </rdfs:label>
+        <rdfs:label xml:lang="ar">أمام</rdfs:label>
+    </owl:ObjectProperty>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ma -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ma">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="ar">ما</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Amamha -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Amamha">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Amam"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="ar">أمامها</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#AsIfIt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#AsIfIt">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#asIf"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">as if it</rdfs:label>
+        <rdfs:label xml:lang="ar">كأنها</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#DoesntDeviate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#DoesntDeviate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#doesNot"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">does not deviate</rdfs:label>
+        <rdfs:label xml:lang="ar">لا تخرج</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#FaIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#FaIn">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">Accordingly,</rdfs:label>
+        <rdfs:label xml:lang="ar">فإن</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Lahuma -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Lahuma">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#huma"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="ar">لهما</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#MakeIT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#MakeIT">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#make"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">make it</rdfs:label>
+        <rdfs:label xml:lang="ar">يجعله</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#This -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#This">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">this</rdfs:label>
+        <rdfs:label xml:lang="ar">هذه</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#accordance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#accordance">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#inAccordanceWith"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">in accordance</rdfs:label>
+        <rdfs:label xml:lang="ar">وفق</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#and -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#and">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#andThen"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">and</rdfs:label>
+        <rdfs:label xml:lang="ar">و</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#andThen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#andThen">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">and then</rdfs:label>
+        <rdfs:label xml:lang="ar">ومن ثم</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#as -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#as">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#asIf"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">as</rdfs:label>
+        <rdfs:label xml:lang="ar">ك</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#asIf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#asIf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#as"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">as if</rdfs:label>
+        <rdfs:label xml:lang="ar">كأن</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#began -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#began">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#beganTo"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">began</rdfs:label>
+        <rdfs:label xml:lang="ar">بدأ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#beganTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#beganTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#beganToRoamWidely"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">began to</rdfs:label>
+        <rdfs:label xml:lang="ar">انطلقت</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#beganToRoamWidely -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#beganToRoamWidely">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#beganToRoamWidelyIn"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">began to roam widely</rdfs:label>
+        <rdfs:label xml:lang="ar">انطلق يجوب</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#beganToRoamWidelyIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#beganToRoamWidelyIn">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <hasQuantifier xml:lang="en">very fast</hasQuantifier>
+        <hasQuantifier xml:lang="ar">سرعة خاطفة</hasQuantifier>
+        <rdfs:label xml:lang="en">began to roam widely in</rdfs:label>
+        <rdfs:label xml:lang="ar">انطلقت تجوب في</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#deviate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#deviate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#deviateFrom"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">deviate</rdfs:label>
+        <rdfs:label xml:lang="ar">تخرج</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#deviateFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#deviateFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#doesNotDeviateFrom"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">deviate from</rdfs:label>
+        <rdfs:label xml:lang="ar">تخرج عن</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#does -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#does">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#doesNot"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">does</rdfs:label>
+        <rdfs:label xml:lang="ar">يفعل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#doesNot -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#doesNot">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#doesNotDeviateFrom"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">does not</rdfs:label>
+        <rdfs:label xml:lang="ar">لا</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#doesNotDeviateFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#doesNotDeviateFrom">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">does not deviate from</rdfs:label>
+        <rdfs:label xml:lang="ar">لا تخرج عن</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#emerged -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#emerged">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">emerged</rdfs:label>
+        <rdfs:label xml:lang="ar">ظهر</rdfs:label>
+    </owl:ObjectProperty>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#emergedat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#emergedat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">emerged at</rdfs:label>
+        <rdfs:label xml:lang="ar">ظهر</rdfs:label>
+    </owl:ObjectProperty>
+
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#at -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#at">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">at</rdfs:label>
+        <rdfs:label xml:lang="ar">في</rdfs:label>
+    </owl:ObjectProperty>
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#establish -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#establish">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toEstablish"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">establish</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#fa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#fa">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en"> </rdfs:label>
+        <rdfs:label xml:lang="ar">ف</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#from">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#deviateFrom"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">from</rdfs:label>
+        <rdfs:label xml:lang="ar">عن</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#how -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#how">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#however"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">how</rdfs:label>
+        <rdfs:label xml:lang="ar">غير</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#however -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#however">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">However</rdfs:label>
+        <rdfs:label xml:lang="ar">غير أن</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#huma -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#huma">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en"> </rdfs:label>
+        <rdfs:label xml:lang="ar">هما</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#if -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#if">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#asIf"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">if</rdfs:label>
+        <rdfs:label xml:lang="ar">إذا</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#in">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">in</rdfs:label>
+        <rdfs:label xml:lang="ar">في</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#inAccordanceWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#inAccordanceWith">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">in accordance</rdfs:label>
+        <rdfs:label xml:lang="ar">وفق ما</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#is -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#is">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#isNo"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">is</rdfs:label>
+        <rdfs:label xml:lang="ar">يكون</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#isMeant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#isMeant">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#isMeantToBe"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">is meant</rdfs:label>
+        <rdfs:label xml:lang="ar">قصد</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#isMeantToBe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#isMeantToBe">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">is meant to be</rdfs:label>
+        <rdfs:label xml:lang="ar">قصد ب</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#isNo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#isNo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#thereIsNo"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">is no</rdfs:label>
+        <rdfs:label xml:lang="ar">لا</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#l -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#l">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="ar">ل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#made -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#made">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#make"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">made</rdfs:label>
+        <rdfs:label xml:lang="ar">جَعَلت</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#make -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#make">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">make</rdfs:label>
+        <rdfs:label xml:lang="ar">يجعل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#not -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#not">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#doesNot"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">not</rdfs:label>
+        <rdfs:label xml:lang="ar">لا</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#null -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#null">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>       
+        <rdfs:label xml:lang="en">_</rdfs:label> 
+		<rdfs:label xml:lang="ar"> </rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#of">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">of</rdfs:label>
+		<rdfs:label xml:lang="ar"> </rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ofSahab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ofSahab">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">of</rdfs:label>
+        <rdfs:label xml:lang="ar">التي صاحبت</rdfs:label>
+    </owl:ObjectProperty>
+    
+<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Allati">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="ar">التي</rdfs:label>
+    </owl:ObjectProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Sahab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Sahab">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">of</rdfs:label>
+        <rdfs:label xml:lang="ar">صاحبت</rdfs:label>
+    </owl:ObjectProperty>
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toEstablishOn"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">on</rdfs:label>
+        <rdfs:label xml:lang="ar">على</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#or -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#or">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">or</rdfs:label>
+        <rdfs:label xml:lang="ar">أو</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#promised -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#promised">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">promised</rdfs:label>
+        <rdfs:label xml:lang="ar">تبشر</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#promisedThat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#promisedThat">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#promised"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">promised</rdfs:label>
+        <rdfs:label xml:lang="ar">تبشر ب</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#roamWidelyIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#roamWidelyIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#roamWidelyWidelyIn"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">roam widely in</rdfs:label>
+        <rdfs:label xml:lang="ar">تجوب</rdfs:label>
+    </owl:ObjectProperty>
+	
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#roam -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#roam">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#roam"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">roam</rdfs:label>
+        <rdfs:label xml:lang="ar">تجوب</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#roamWidely -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#roamWidely">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#beganToRoamWidely"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <hasQuantifier xml:lang="en">very fast</hasQuantifier>
+        <hasQuantifier xml:lang="ar">سرعة خاطفة</hasQuantifier>
+        <rdfs:label xml:lang="en">roam widely</rdfs:label>
+        <rdfs:label xml:lang="ar">يجوب</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#that -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#that">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#however"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">that</rdfs:label>
+        <rdfs:label xml:lang="ar">أن</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#thatIs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#thatIs">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#that"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">that is</rdfs:label>
+        <rdfs:label xml:lang="ar">أي</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#then -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#then">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#andThen"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">then</rdfs:label>
+        <rdfs:label xml:lang="ar">ثم</rdfs:label>
+    </owl:ObjectProperty>
+    
+<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#men -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#then">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#andThen"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label xml:lang="ar">من</rdfs:label>
+    </owl:ObjectProperty>
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#thereIsNo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#thereIsNo">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">there is no</rdfs:label>
+        <rdfs:label xml:lang="ar">لا</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#to">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">to</rdfs:label>
+        <rdfs:label xml:lang="ar">إلى</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toEstablish -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toEstablish">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toEstablishOn"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">to establish</rdfs:label>
+        <rdfs:label xml:lang="ar">تأسيس</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toEstablishOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toEstablishOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">to establish on</rdfs:label>
+        <rdfs:label xml:lang="ar">تأسيس على</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toMake -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toMake">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#make"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">to make</rdfs:label>
+        <rdfs:label xml:lang="ar">جَعْل</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toMakeIt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toMakeIt">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toMake"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">to make it</rdfs:label>
+        <rdfs:label xml:lang="ar">جَعْلها</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Stand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Stand">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">stand</rdfs:label>
+        <rdfs:label xml:lang="ar">يقفون</rdfs:label>
+    </owl:ObjectProperty>
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toStand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toStand">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">to stand</rdfs:label>
+        <rdfs:label xml:lang="ar">ليقف</rdfs:label>
+    </owl:ObjectProperty>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toStandAmam -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toStand">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">to stand</rdfs:label>
+        <rdfs:label xml:lang="ar">يقفون أمام</rdfs:label>
+    </owl:ObjectProperty>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toStandAmamPRP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toStand">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">to stand</rdfs:label>
+        <rdfs:label xml:lang="ar">يقفون أمامها</rdfs:label>
+    </owl:ObjectProperty>
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toUniversalize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#toUniversalize">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">to universalize them</rdfs:label>
+        <rdfs:label xml:lang="ar">جَعْلها عالمية</rdfs:label>
+    </owl:ObjectProperty>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Universalize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Universalize">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">universalize</rdfs:label>
+        <rdfs:label xml:lang="ar">عالمية</rdfs:label>
+    </owl:ObjectProperty>
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#very -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#very">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#emerged"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">very</rdfs:label>
+        <rdfs:label xml:lang="ar">خاطفة</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#whether -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#whether">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">Whether</rdfs:label>
+        <rdfs:label xml:lang="ar">سواء</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#widely -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#widely">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#roamWidely"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">widely</rdfs:label>
+        <rdfs:label xml:lang="ar">على نطاق واسع</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#with">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">with</rdfs:label>
+        <rdfs:label xml:lang="ar">ب</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#wouldBenefit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#wouldBenefit">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">would benefit</rdfs:label>
+        <rdfs:label xml:lang="ar">يفيد</rdfs:label>
+    </owl:ObjectProperty>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#would -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#would">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">would</rdfs:label>
+        <rdfs:label xml:lang="ar"> </rdfs:label>
+    </owl:ObjectProperty>
+	
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Benefit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Benefit">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">benefit</rdfs:label>
+        <rdfs:label xml:lang="ar">يفيده</rdfs:label>
+    </owl:ObjectProperty>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#All -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#All">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Everything"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">all</rdfs:label>
+        <rdfs:label xml:lang="ar">كل</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Benefits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Benefits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Relation"/>
+        <rdfs:label xml:lang="en">benefits</rdfs:label>
+        <rdfs:label xml:lang="ar">فوائد</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Blood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Blood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Human_related"/>
+        <rdfs:label xml:lang="en">blood</rdfs:label>
+        <rdfs:label xml:lang="ar">الدماء</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Century -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Century">
+        <rdfs:label xml:lang="en">century</rdfs:label>
+        <rdfs:label xml:lang="ar">القرن</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Concept">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Linguistic"/>
+        <rdfs:label xml:lang="en">concept</rdfs:label>
+        <rdfs:label xml:lang="ar">مفهوم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Contemplating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Contemplating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <rdfs:label xml:lang="en">contemplating</rdfs:label>
+        <rdfs:label xml:lang="ar">متأملين</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Content -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Content">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Linguistic"/>
+        <rdfs:label xml:lang="en">of its content</rdfs:label>
+        <rdfs:label xml:lang="ar">التي تتضمنها</rdfs:label>
+    </owl:Class>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Contents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Contents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Linguistic"/>
+        <rdfs:label xml:lang="en">content</rdfs:label>
+        <rdfs:label xml:lang="ar">تتضمن</rdfs:label>
+    </owl:Class>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsContent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsContent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Linguistic"/>
+        <rdfs:label xml:lang="en">its content</rdfs:label>
+        <rdfs:label xml:lang="ar">تتضمنها</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Context">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Linguistic"/>
+        <rdfs:label xml:lang="en">context</rdfs:label>
+        <rdfs:label xml:lang="ar">الظروف</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Creation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Creation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Relation"/>
+        <rdfs:label xml:lang="en">creation</rdfs:label>
+        <rdfs:label xml:lang="ar">التصيير</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Danger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Danger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Relation"/>
+        <rdfs:label xml:lang="en">dangers</rdfs:label>
+        <rdfs:label xml:lang="ar">أخطار</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Dimension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Dimension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Relation"/>
+        <rdfs:label xml:lang="en">dimensions</rdfs:label>
+        <rdfs:label xml:lang="ar">أبعاد</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Duty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Duty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Human_related"/>
+        <rdfs:label xml:lang="en">duties</rdfs:label>
+        <rdfs:label xml:lang="ar">الواجبات</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Emergence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Emergence">
+        <rdfs:label xml:lang="en">emergence</rdfs:label>
+        <rdfs:label xml:lang="ar">انطلاق</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#End -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#End">
+        <rdfs:label xml:lang="en">end</rdfs:label>
+        <rdfs:label xml:lang="ar">أواخر</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Entire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Entire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <rdfs:label xml:lang="en">the entire</rdfs:label>
+        <rdfs:label xml:lang="ar">الأرضي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#EntireUniverse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#EntireUniverse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Entire"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Universe"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">entire universe</rdfs:label>
+        <rdfs:label xml:lang="ar">الكوكب الأرضي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#withEqual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#withEqual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <rdfs:label xml:lang="en">with equal</rdfs:label>
+        <rdfs:label xml:lang="ar">متساوية</rdfs:label>
+    </owl:Class>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Equal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Equal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <rdfs:label xml:lang="en">equal</rdfs:label>
+        <rdfs:label xml:lang="ar">متساوي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#EqualRights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#EqualRights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Equal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Right"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">equal rights</rdfs:label>
+        <rdfs:label xml:lang="ar">متساوية الحقوق</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Everything -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Everything">
+        <rdfs:label xml:lang="en">everything</rdfs:label>
+        <rdfs:label xml:lang="ar">كل شيء</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Family">
+        <rdfs:label xml:lang="en">family</rdfs:label>
+        <rdfs:label xml:lang="ar">أسرة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Fast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Fast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">fast</rdfs:label>
+        <rdfs:label xml:lang="ar">سرعة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Globalization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Globalization">
+        <rdfs:comment xml:lang="en">accordingly</rdfs:comment>
+        <rdfs:comment xml:lang="ar">وفقاً لذلك</rdfs:comment>
+        <rdfs:label xml:lang="en">globalization</rdfs:label>
+        <rdfs:label xml:lang="ar">العولمة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Human -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Human">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#People"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">human</rdfs:label>
+        <rdfs:label xml:lang="ar">بشرية</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#HumanFamily -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#HumanFamily">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Family"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Human"/>
+        <rdfs:label xml:lang="en">human family</rdfs:label>
+        <rdfs:label xml:lang="ar">أسرة بشرية</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Human_related -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Human_related"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Idea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Idea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Relation"/>
+        <rdfs:label xml:lang="en">ideas</rdfs:label>
+        <rdfs:label xml:lang="ar">الأفكار</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Implied -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Implied">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">implied</rdfs:label>
+        <rdfs:label xml:lang="ar">يوحي ب</rdfs:label>
+    </owl:Class>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Imply -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Implied">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">imply</rdfs:label>
+        <rdfs:label xml:lang="ar">يوحي</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ImpliedSignificance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ImpliedSignificance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Implied"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Significance"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">with its implied significance</rdfs:label>
+        <rdfs:label xml:lang="ar">يوحي به مدلول</rdfs:label>
+    </owl:Class>
+    
+
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#It -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Its">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Its"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">its</rdfs:label>
+        <rdfs:label xml:lang="ar">ها</rdfs:label>
+    </owl:Class>
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsBenefits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsBenefits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Benefit"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">its benefits</rdfs:label>
+        <rdfs:label xml:lang="ar">فوائدها</rdfs:label>
+    </owl:Class>
+    
+	 <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Shibam#It -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Shibam#It">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">them</rdfs:label>
+        <rdfs:label xml:lang="en">it</rdfs:label>
+		<rdfs:label xml:lang="ar">ها</rdfs:label>
+    </owl:Class>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Shibam#h -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Shibam#h">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">it</rdfs:label>
+        <rdfs:label xml:lang="ar">ه</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsDangers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsDangers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Danger"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">dangers</rdfs:label>
+        <rdfs:label xml:lang="ar">أخطارها</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsDimensions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsDimensions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Dimension"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">its dimensions</rdfs:label>
+        <rdfs:label xml:lang="ar">أبعادها</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsEmergence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsEmergence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Emergence"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">its emergence</rdfs:label>
+        <rdfs:label xml:lang="ar">انطلاقها</rdfs:label>
+    </owl:Class>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsEmergence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsEmergence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Emergence"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">of its emergence</rdfs:label>
+        <rdfs:label xml:lang="ar">صاحبت انطلاقها</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsObjectives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ItsObjectives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Objective"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">objectives</rdfs:label>
+        <rdfs:label xml:lang="ar">مراميها</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Last -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Last">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">last</rdfs:label>
+        <rdfs:label xml:lang="ar">الماضي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#LastCentury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#LastCentury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Century"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Last"/>
+        <rdfs:label xml:lang="en">last century</rdfs:label>
+        <rdfs:label xml:lang="ar">القرن الماضي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Linguistic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Linguistic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Meaning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Meaning">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Significance"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Linguistic"/>
+        <rdfs:label xml:lang="en">meaning</rdfs:label>
+        <rdfs:label xml:lang="ar">معنى</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Multiplicity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Multiplicity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <rdfs:label xml:lang="en">multiplicity</rdfs:label>
+        <rdfs:label xml:lang="ar">تعدد الجوانب</rdfs:label>
+    </owl:Class>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Multi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Multi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <rdfs:label xml:lang="en">multi-</rdfs:label>
+        <rdfs:label xml:lang="ar">تعدد</rdfs:label>
+    </owl:Class>
+	
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Borders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Borders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <rdfs:label xml:lang="en">borders</rdfs:label>
+        <rdfs:label xml:lang="ar">الجوانب</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#New -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#New">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <rdfs:label xml:lang="en">new</rdfs:label>
+        <rdfs:label xml:lang="ar">جديد</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#NoOtherOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#NoOtherOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#third"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">there is no other option</rdfs:label>
+        <rdfs:label xml:lang="ar">لا ثالث</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Objective -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Objective">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Relation"/>
+        <rdfs:label xml:lang="en">objectives</rdfs:label>
+        <rdfs:label xml:lang="ar">مرامي</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Option -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Option">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Relation"/>
+        <rdfs:label xml:lang="en">option</rdfs:label>
+        <rdfs:label xml:lang="ar">خيار</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#OtherOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#OtherOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Option"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">other option</rdfs:label>
+        <rdfs:label xml:lang="ar">خيار آخر</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#People -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#People">
+        <rdfs:label xml:lang="en">people</rdfs:label>
+        <rdfs:label xml:lang="ar">ناس</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Relation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Relation">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Right -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Right">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Human_related"/>
+        <rdfs:label xml:lang="en">rights</rdfs:label>
+        <rdfs:label xml:lang="ar">الحقوق</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Relation"/>
+        <rdfs:label xml:lang="en">science</rdfs:label>
+        <rdfs:label xml:lang="ar">العلم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Significance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Significance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Linguistic"/>
+        <rdfs:label xml:lang="en">meaning</rdfs:label>
+        <rdfs:label xml:lang="ar">مدلول</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Something -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Something">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Thing"/>
+        <rdfs:label xml:lang="en">something</rdfs:label>
+        <rdfs:label xml:lang="ar">شيء</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#SomethingNew -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#SomethingNew">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#New"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Something"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">something new</rdfs:label>
+        <rdfs:label xml:lang="ar">شيء جديد</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Thing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Thing">
+        <rdfs:label xml:lang="en">things</rdfs:label>
+        <rdfs:label xml:lang="ar">الأشياء</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Relation"/>
+        <rdfs:label xml:lang="en">transformation</rdfs:label>
+        <rdfs:label xml:lang="ar">التحويل</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Unified -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Unified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <rdfs:label xml:lang="en">unified</rdfs:label>
+        <rdfs:label xml:lang="ar">موحدة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#UnifiedHumanFamily -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#UnifiedHumanFamily">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#HumanFamily"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Unified"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">unified human family</rdfs:label>
+        <rdfs:label xml:lang="ar">أسرة بشرية موحدة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Universe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Universe">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#World"/>
+        <rdfs:label xml:lang="en">universe</rdfs:label>
+        <rdfs:label xml:lang="ar">الكوكب</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Vague -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Vague">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <rdfs:label xml:lang="en">vague</rdfs:label>
+        <rdfs:label xml:lang="ar">غموض</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#VagueMeaning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#VagueMeaning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Meaning"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Vague"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">vague meaning</rdfs:label>
+        <rdfs:label xml:lang="ar">غموض المعنى</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Wise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Wise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">wise</rdfs:label>
+        <rdfs:label xml:lang="ar">حكيم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#WisePeople -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#WisePeople">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#People"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Wise"/>
+        <hasQuantifier xml:lang="en">many</hasQuantifier>
+        <hasQuantifier xml:lang="ar">عدداً من</hasQuantifier>
+        <rdfs:label xml:lang="en">wise people in</rdfs:label>
+        <rdfs:label xml:lang="ar">عقلاء</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Word -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Word">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Linguistic"/>
+        <rdfs:label xml:lang="en">word</rdfs:label>
+        <rdfs:label xml:lang="ar">الكلمة</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#World -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#World">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Universe"/>
+        <rdfs:label xml:lang="en">the world</rdfs:label>
+        <rdfs:label xml:lang="ar">العالم</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#globalization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#globalization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Globalization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#many -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#many">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Human"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">many</rdfs:label>
+        <rdfs:label xml:lang="ar">كثيراً من</rdfs:label>
+    </owl:Class>
+    
+	<!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#many1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#many1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Human"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">many</rdfs:label>
+        <rdfs:label xml:lang="ar">كثيرا</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#third -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#third">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Status"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">other option</rdfs:label>
+        <rdfs:label xml:lang="ar">ثالث</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#benefits -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#benefits">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Benefit"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#blood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#blood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Blood"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#century -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#century">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Century"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#concept -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#concept">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Concept"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#globalization"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#contemplating -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#contemplating">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Contemplating"/>
+        <andThen rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#benefits"/>
+        <andThen rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#dangers"/>
+        <null rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#dimensions"/>
+        <null rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ojectives"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#content -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#content">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Content"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#globalization"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#context -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#context">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Context"/>
+        <make rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#wisePeople"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#emergence"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#creation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#creation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Creation"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#dangers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#dangers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Danger"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#dimensions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#dimensions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Dimension"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#duties -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#duties">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Duty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#emergence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#emergence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Emergence"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#globalization"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#end -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#end">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#End"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#lastCentury"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#entire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#entire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Entire"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#entireUniverse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#entireUniverse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#EntireUniverse"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#equal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#equal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Equal"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#equal_rights -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#equal_rights">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#EqualRights"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#everything -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#everything">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Everything"/>
+        <toEstablishOn rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#science"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#family -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#family">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Family"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#globalization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#globalization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Globalization"/>
+        <doesNotDeviateFrom rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#meaning"/>
+        <inAccordanceWith rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#impliedSignificance"/>
+        <isMeantToBe rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#globalization"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ideas"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#things"/>
+        <toEstablish rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#everything"/>
+        <toUniversalize rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ideas"/>
+        <toUniversalize rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#things"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#human -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#human">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Human"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#humanFamily -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#humanFamily">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#HumanFamily"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ideas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ideas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Idea"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#implied -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#implied">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Implied"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#impliedSignificance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#impliedSignificance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ImpliedSignificance"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#last -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#last">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Last"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#lastCentury -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#lastCentury">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#LastCentury"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#meaning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#meaning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Meaning"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#creation"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#transformation"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#mulitplicity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#mulitplicity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Multiplicity"/>
+        <make rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#wisePeople"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#content"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#new -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#new">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#New"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#null2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#null2">
+        <thereIsNo rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#otherOption"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#null3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#null3">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ojectives -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#ojectives">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Objective"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#options -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#options">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Option"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#otherOption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#otherOption">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#OtherOption"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#people -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#people">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#People"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#rights -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#rights">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Right"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#science -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#science">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Science"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#significance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#significance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Significance"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#something -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#something">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Something"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#somethingNew -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#somethingNew">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#SomethingNew"/>
+        <make rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#unifiedHumanFamily"/>
+        <make rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#world"/>
+        <wouldBenefit rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#world"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#things -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#things">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Thing"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#transformation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#transformation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Transformation"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#unified -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#unified">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Unified"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#unifiedHumanFamily -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#unifiedHumanFamily">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#UnifiedHumanFamily"/>
+        <with rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#blood"/>
+        <with rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#duties"/>
+        <with rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#equal_rights"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#universe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#universe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Universe"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#vague -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#vague">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Vague"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#vagueMeaning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#vagueMeaning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#VagueMeaning"/>
+        <make rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#wisePeople"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#word"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#wise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#wise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Wise"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#wisePeople -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#wisePeople">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#WisePeople"/>
+        <in rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#world"/>
+        <toStand rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#contemplating"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#word -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#word">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#Word"/>
+        <beganToRoamWidelyIn rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#entireUniverse"/>
+        <of rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#globalization"/>
+        <promised rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#somethingNew"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#world -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#world">
+        <rdf:type rdf:resource="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#World"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/infancyvoice/ontologies/2017/8/Globalization#globalization">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy voice</dc:creator>
+        <rdfs:label xml:lang="en">the globalization</rdfs:label>
+        <rdfs:label xml:lang="ar">عولمة</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label xml:lang="en">thing</rdfs:label>
+        <rdfs:label xml:lang="ar">شيء</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
